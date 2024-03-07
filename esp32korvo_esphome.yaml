@@ -57,11 +57,9 @@ time:
 
 #### WIFI PASSWORD ###
 wifi:
-  networks:
-    - id: wifi_default
-      ssid: ${wifi_ssid}
-      password: ${wifi_password}
-      use_address: ${my_address}
+  ssid: ${wifi_ssid}
+  password: ${wifi_password}
+  use_address: ${my_address}
 
   ap:
     ssid: ${device_name}
